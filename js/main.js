@@ -11,12 +11,11 @@
   var I18N = {
     es: {
       'nav.inicio': 'Inicio', 'nav.servicios': 'Servicios', 'nav.nosotros': 'Nosotros',
-      'nav.zonas': 'Zonas', 'nav.contacto': 'Contacto',
+      'nav.contacto': 'Contacto',
       'cta.cotiza': 'Cotiza ahora', 'cta.solicita': 'Solicita tu cotización',
       'cta.cotizar': 'Cotizar', 'cta.vermas': 'Ver más →', 'cta.equipo': 'Conoce al equipo',
-      'cta.consultar': 'Consultar cobertura',
 
-      'hero.zonas': 'Brickell · Coral Gables · Pinecrest · Coconut Grove',
+      'hero.zonas': 'Servicio en toda el área de Miami',
       'hero.title1': 'Limpieza profesional', 'hero.title2': 'para ', 'hero.title_kw': 'todo Miami',
       'hero.sub': 'Comercial, residencial, industrial y alfombras. Equipo propio, uniformado e identificado, con productos y herramienta incluidos.',
       'hero.card1.title': 'Para tu casa', 'hero.card1.price': 'desde $120',
@@ -29,7 +28,7 @@
       'svc.alfombras': 'Alfombras', 'svc.comercial': 'Comercial',
       'svc.residencial': 'Residencial', 'svc.industrial': 'Industrial',
 
-      'stats.a': 'para tu cotización', 'stats.b': 'zonas de Miami', 'stats.c': 'atención en dos idiomas',
+      'stats.a': 'para tu cotización', 'stats.b': 'cobertura en Miami', 'stats.c': 'atención en dos idiomas',
 
       'home.services.title': 'Cuatro servicios,<br>un solo equipo',
       'home.services.note': 'Cada servicio tiene su propia página con alcance y precios de referencia.',
@@ -51,12 +50,11 @@
       'home.team.eyebrow': 'Nuestro equipo', 'home.team.title': 'Las mismas personas, cada visita',
       'home.team.p': 'No subcontratamos. El equipo que conoce tu espacio es el que regresa, con uniforme, gafete y la misma forma de trabajar.',
 
-      'zones.label': 'Zonas de servicio',
       'cta.band.title': '¿Cuánto costaría limpiar tu espacio?',
       'cta.band.p': 'Cuéntanos el tipo de espacio y los metros. Respondemos el mismo día, en el idioma que prefieras.',
 
       'footer.tagline': 'Servicios de limpieza en el área de Miami, Florida.',
-      'footer.services': 'Servicios', 'footer.zones': 'Zonas', 'footer.contact': 'Contacto',
+      'footer.services': 'Servicios', 'footer.contact': 'Contacto',
       'footer.rights': 'Miami, Florida · Todos los derechos reservados',
 
       /* Servicios */
@@ -91,7 +89,7 @@
 
       /* Nosotros */
       'nos.hero.title': 'Un equipo que cuida<br>los detalles que nadie ve',
-      'nos.hero.lead': 'Somos un equipo de limpieza con base en Miami. Trabajamos en Brickell, Coral Gables, Pinecrest y Coconut Grove, en oficinas, casas, bodegas y alfombras.',
+      'nos.hero.lead': 'Somos un equipo de limpieza con base en Miami. Trabajamos en toda el área de Miami, en oficinas, casas, bodegas y alfombras.',
       'nos.story.lead': 'No subcontratamos. El equipo que conoce tu espacio es el que regresa, con uniforme, gafete y la misma forma de trabajar.',
       'nos.story.p1': 'TEK-LIM MULTISERVI nació para resolver un problema simple: que la limpieza se sienta confiable. Por eso trabajamos con personal propio, no rotativo, capacitado y presentado con uniforme y gafete.',
       'nos.story.p2': 'Atendemos comercios, casas, bodegas y alfombras en el área de Miami. Cada trabajo empieza con una visita, una medición y una cotización cerrada por escrito en 24 horas, sin sorpresas.',
@@ -101,21 +99,12 @@
       'nos.val3.t': 'Atención en dos idiomas', 'nos.val3.d': 'Español e inglés, sin intermediarios ni traducciones a medias.',
       'nos.team.p': 'Nos contratan por el trabajo y nos quedan por el detalle. Conócenos: somos personas reales trabajando, no un banco de imágenes.',
 
-      /* Zonas */
-      'zonas.hero.title': 'Cuatro zonas de Miami,<br>un mismo equipo',
-      'zonas.hero.lead': 'Damos servicio en Brickell, Coral Gables, Pinecrest y Coconut Grove. ¿Estás cerca? Escríbenos y confirmamos cobertura el mismo día.',
-      'zonas.brickell': 'Oficinas, torres residenciales y locales comerciales. Programas antes o después de horario.',
-      'zonas.gables': 'Casas, oficinas y espacios comerciales. Limpieza recurrente y profunda.',
-      'zonas.pinecrest': 'Residencial de mantenimiento, alfombras y limpieza por mudanza.',
-      'zonas.grove': 'Casas y comercios locales. Atención en español e inglés.',
-      'zonas.note': '¿No ves tu zona? Escríbenos de todos modos. Estamos ampliando cobertura en el área de Miami y confirmamos disponibilidad caso por caso.',
-
       /* Contacto / formulario */
       'cont.title': 'Pide tu cotización',
       'cont.lead': 'Respondemos el mismo día. Si prefieres hablar, llámanos o escríbenos por WhatsApp al (786) 817-8904.',
       'cont.phone': 'Teléfono / WhatsApp',
       'form.name': 'Nombre', 'form.phone': 'Teléfono', 'form.service': 'Servicio',
-      'form.zone': 'Cuéntanos qué necesitas', 'form.zone.ph': 'Ej: Limpieza profunda, oficina en Brickell, ~150 m², dos veces por semana',
+      'form.zone': 'Cuéntanos qué necesitas', 'form.zone.ph': 'Ej: Limpieza profunda, oficina de 150 m², dos veces por semana',
       'form.submit': 'Enviar solicitud',
       'form.note': 'Al enviar se abrirá WhatsApp con tu solicitud lista para mandar. No se guarda ningún dato en el sitio.',
       'form.wa.greeting': 'Hola TEK-LIM, quiero una cotización.',
@@ -125,12 +114,11 @@
 
     en: {
       'nav.inicio': 'Home', 'nav.servicios': 'Services', 'nav.nosotros': 'About',
-      'nav.zonas': 'Areas', 'nav.contacto': 'Contact',
+      'nav.contacto': 'Contact',
       'cta.cotiza': 'Get a quote', 'cta.solicita': 'Request a quote',
       'cta.cotizar': 'Get a quote', 'cta.vermas': 'See more →', 'cta.equipo': 'Meet the team',
-      'cta.consultar': 'Check coverage',
 
-      'hero.zonas': 'Brickell · Coral Gables · Pinecrest · Coconut Grove',
+      'hero.zonas': 'Serving the entire Miami area',
       'hero.title1': 'Professional cleaning', 'hero.title2': 'for ', 'hero.title_kw': 'all of Miami',
       'hero.sub': 'Commercial, residential, industrial and carpet cleaning. Our own crew, in uniform and by name, with supplies and equipment included.',
       'hero.card1.title': 'For your home', 'hero.card1.price': 'from $120',
@@ -143,7 +131,7 @@
       'svc.alfombras': 'Carpets', 'svc.comercial': 'Commercial',
       'svc.residencial': 'Residential', 'svc.industrial': 'Industrial',
 
-      'stats.a': 'for your quote', 'stats.b': 'Miami areas', 'stats.c': 'service in two languages',
+      'stats.a': 'for your quote', 'stats.b': 'Miami-wide coverage', 'stats.c': 'service in two languages',
 
       'home.services.title': 'Four services,<br>one crew',
       'home.services.note': 'Each service has its own page with scope and reference pricing.',
@@ -165,12 +153,11 @@
       'home.team.eyebrow': 'Our team', 'home.team.title': 'The same people, every visit',
       'home.team.p': 'We don’t subcontract. The crew that knows your space is the one that comes back — in uniform, badged, working the same way.',
 
-      'zones.label': 'Service areas',
       'cta.band.title': 'What would it cost to clean your space?',
       'cta.band.p': 'Tell us the type of space and the size. We reply the same day, in the language you prefer.',
 
       'footer.tagline': 'Cleaning services in the Miami, Florida area.',
-      'footer.services': 'Services', 'footer.zones': 'Areas', 'footer.contact': 'Contact',
+      'footer.services': 'Services', 'footer.contact': 'Contact',
       'footer.rights': 'Miami, Florida · All rights reserved',
 
       /* Services */
@@ -205,7 +192,7 @@
 
       /* About */
       'nos.hero.title': 'A crew that cares for<br>the details no one sees',
-      'nos.hero.lead': 'We are a cleaning crew based in Miami. We work in Brickell, Coral Gables, Pinecrest and Coconut Grove — offices, homes, warehouses and carpets.',
+      'nos.hero.lead': 'We are a cleaning crew based in Miami. We work across the greater Miami area — offices, homes, warehouses and carpets.',
       'nos.story.lead': 'We don’t subcontract. The crew that knows your space is the one that comes back — in uniform, badged, working the same way.',
       'nos.story.p1': 'TEK-LIM MULTISERVI started to solve a simple problem: making cleaning feel reliable. That’s why we work with our own staff — not rotating — trained and presented in uniform and badge.',
       'nos.story.p2': 'We serve businesses, homes, warehouses and carpets across the Miami area. Every job starts with a visit, a measurement and a firm written quote within 24 hours — no surprises.',
@@ -215,21 +202,12 @@
       'nos.val3.t': 'Service in two languages', 'nos.val3.d': 'Spanish and English, no middlemen or half-done translations.',
       'nos.team.p': 'They hire us for the work and stay for the detail. Get to know us: we’re real people working, not stock photos.',
 
-      /* Areas */
-      'zonas.hero.title': 'Four Miami areas,<br>one crew',
-      'zonas.hero.lead': 'We serve Brickell, Coral Gables, Pinecrest and Coconut Grove. Nearby? Message us and we’ll confirm coverage the same day.',
-      'zonas.brickell': 'Offices, residential towers and storefronts. Programs before or after hours.',
-      'zonas.gables': 'Homes, offices and commercial spaces. Recurring and deep cleaning.',
-      'zonas.pinecrest': 'Residential upkeep, carpets and move-out cleaning.',
-      'zonas.grove': 'Homes and local businesses. Service in Spanish and English.',
-      'zonas.note': 'Don’t see your area? Message us anyway. We’re expanding coverage across the Miami area and confirm availability case by case.',
-
       /* Contact / form */
       'cont.title': 'Request a quote',
       'cont.lead': 'We reply the same day. If you’d rather talk, call us or message us on WhatsApp at (786) 817-8904.',
       'cont.phone': 'Phone / WhatsApp',
       'form.name': 'Name', 'form.phone': 'Phone', 'form.service': 'Service',
-      'form.zone': 'Tell us what you need', 'form.zone.ph': 'E.g. Deep cleaning, office in Brickell, ~150 m², twice a week',
+      'form.zone': 'Tell us what you need', 'form.zone.ph': 'E.g. Deep cleaning, 150 m² office, twice a week',
       'form.submit': 'Send request',
       'form.note': 'Sending opens WhatsApp with your request ready to send. No data is stored on the site.',
       'form.wa.greeting': 'Hi TEK-LIM, I’d like a quote.',
