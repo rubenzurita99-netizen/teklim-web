@@ -271,6 +271,7 @@ ul{margin:0;padding:0;list-style:none}
 .svc-row--rev{grid-template-columns:620px 1fr;background:var(--hueso)}
 .svc-row__media{overflow:hidden;background:var(--arena);min-height:460px}
 .svc-row__media img,.svc-row__media video{width:100%;height:100%;object-fit:cover;filter:var(--foto)}
+.svc-row__media--split{display:grid;grid-template-columns:1fr 1fr;gap:2px}
 .svc-row__body{padding:74px 56px;display:flex;flex-direction:column;gap:22px;justify-content:center}
 .svc-row__tag{display:flex;align-items:center;gap:14px}
 .svc-row__num{font:600 12.5px/1 var(--mono);color:var(--amarillo)}
