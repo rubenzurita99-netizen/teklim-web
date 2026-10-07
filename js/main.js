@@ -432,7 +432,7 @@
     var saved = null;
     try { saved = localStorage.getItem('teklim-lang'); } catch (e) {}
     if (saved !== 'en' && saved !== 'es') {
-      saved = ((navigator.language || '').slice(0, 2).toLowerCase() === 'en') ? 'en' : 'es';
+      saved = 'es';
     }
     applyLang(saved);
     initLangButtons();
