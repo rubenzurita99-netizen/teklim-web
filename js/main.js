@@ -1,6 +1,7 @@
 /* ============================================================
    TEK-LIM MULTISERVI — main.js
-   i18n ES/EN · menú móvil · tipografía cinética · formulario→WhatsApp
+   i18n ES/EN · menú móvil · tipografía cinética · video lazy-load
+   formulario→WhatsApp · eventos GA4
    ============================================================ */
 (function () {
   'use strict';
@@ -57,7 +58,8 @@
       'footer.services': 'Servicios', 'footer.contact': 'Contacto',
       'footer.rights': 'Miami, Florida · Todos los derechos reservados',
 
-      /* Servicios */
+      /* Servicios — página índice */
+      'h1.servicios': 'Servicios de limpieza<br>en Miami',
       'serv.hero.title': 'Cuatro formas de<br>dejarlo limpio',
       'serv.hero.lead': 'Mismo equipo, misma manera de trabajar. Cambia el espacio, el equipo y la frecuencia. Todos los servicios incluyen productos, herramienta y personal uniformado.',
       'serv.list.label': 'Servicios',
@@ -65,6 +67,12 @@
       'serv.idx.comercial': 'Oficinas, locales y áreas comunes. Programas diarios, semanales o por evento.',
       'serv.idx.residencial': 'Casas y apartamentos. Mantenimiento recurrente, mudanzas y limpieza profunda.',
       'serv.idx.industrial': 'Bodegas, plantas y obra terminada. Equipo pesado y protocolos de seguridad.',
+
+      /* Servicios — páginas propias */
+      'h1.alfombras': 'Limpieza de Alfombras en Miami',
+      'h1.comercial': 'Limpieza Comercial en Miami',
+      'h1.residencial': 'Limpieza Residencial en Miami',
+      'h1.industrial': 'Limpieza Industrial en Miami',
       'serv.alfombras.title': 'La suciedad que la aspiradora no saca',
       'serv.alfombras.p': 'Extracción en caliente para fibras sintéticas y naturales. Tratamos manchas, olores y alérgenos, y dejamos la alfombra lista para usar el mismo día.',
       'serv.alfombras.f1t': 'Oficinas', 'serv.alfombras.f1d': 'tráfico alto',
@@ -86,9 +94,10 @@
       'serv.industrial.f1t': 'Equipo pesado', 'serv.industrial.f1d': 'pulido y lavado a presión',
       'serv.industrial.f2t': 'Post-obra', 'serv.industrial.f2d': 'entrega lista para operar',
       'serv.industrial.cta': 'Cotizar limpieza industrial',
+      'serv.other.label': 'Más servicios',
 
       /* Nosotros */
-      'nos.hero.title': 'Un equipo que cuida<br>los detalles que nadie ve',
+      'h1.nosotros': 'Un equipo de limpieza en Miami<br>que cuida los detalles que nadie ve',
       'nos.hero.lead': 'Somos un equipo de limpieza con base en Miami. Trabajamos en toda el área de Miami, en oficinas, casas, bodegas y alfombras.',
       'nos.story.lead': 'No subcontratamos. El equipo que conoce tu espacio es el que regresa, con uniforme, gafete y la misma forma de trabajar.',
       'nos.story.p1': 'TEK-LIM MULTISERVI nació para resolver un problema simple: que la limpieza se sienta confiable. Por eso trabajamos con personal propio, no rotativo, capacitado y presentado con uniforme y gafete.',
@@ -100,7 +109,7 @@
       'nos.team.p': 'Nos contratan por el trabajo y nos quedan por el detalle. Conócenos: somos personas reales trabajando, no un banco de imágenes.',
 
       /* Contacto / formulario */
-      'cont.title': 'Pide tu cotización',
+      'h1.contacto': 'Cotiza tu limpieza en Miami',
       'cont.lead': 'Respondemos el mismo día. Si prefieres hablar, llámanos o escríbenos por WhatsApp al (786) 817-8904.',
       'cont.phone': 'Teléfono / WhatsApp',
       'form.name': 'Nombre', 'form.phone': 'Teléfono', 'form.service': 'Servicio',
@@ -160,7 +169,8 @@
       'footer.services': 'Services', 'footer.contact': 'Contact',
       'footer.rights': 'Miami, Florida · All rights reserved',
 
-      /* Services */
+      /* Services — index page */
+      'h1.servicios': 'Cleaning services<br>in Miami',
       'serv.hero.title': 'Four ways to<br>leave it clean',
       'serv.hero.lead': 'Same crew, same way of working. What changes is the space, the equipment and the frequency. Every service includes supplies, tools and uniformed staff.',
       'serv.list.label': 'Services',
@@ -168,6 +178,12 @@
       'serv.idx.comercial': 'Offices, storefronts and common areas. Daily, weekly or per-event programs.',
       'serv.idx.residencial': 'Homes and apartments. Recurring upkeep, move-outs and deep cleaning.',
       'serv.idx.industrial': 'Warehouses, plants and post-construction. Heavy equipment and safety protocols.',
+
+      /* Services — own pages */
+      'h1.alfombras': 'Carpet Cleaning in Miami',
+      'h1.comercial': 'Commercial Cleaning in Miami',
+      'h1.residencial': 'Residential Cleaning in Miami',
+      'h1.industrial': 'Industrial Cleaning in Miami',
       'serv.alfombras.title': 'The dirt the vacuum leaves behind',
       'serv.alfombras.p': 'Hot-water extraction for synthetic and natural fibers. We treat stains, odors and allergens, and leave the carpet ready to use the same day.',
       'serv.alfombras.f1t': 'Offices', 'serv.alfombras.f1d': 'high traffic',
@@ -189,9 +205,10 @@
       'serv.industrial.f1t': 'Heavy equipment', 'serv.industrial.f1d': 'polishing and pressure washing',
       'serv.industrial.f2t': 'Post-construction', 'serv.industrial.f2d': 'handed over ready to operate',
       'serv.industrial.cta': 'Quote industrial cleaning',
+      'serv.other.label': 'More services',
 
       /* About */
-      'nos.hero.title': 'A crew that cares for<br>the details no one sees',
+      'h1.nosotros': 'A Miami cleaning crew<br>that cares about the details no one sees',
       'nos.hero.lead': 'We are a cleaning crew based in Miami. We work across the greater Miami area — offices, homes, warehouses and carpets.',
       'nos.story.lead': 'We don’t subcontract. The crew that knows your space is the one that comes back — in uniform, badged, working the same way.',
       'nos.story.p1': 'TEK-LIM MULTISERVI started to solve a simple problem: making cleaning feel reliable. That’s why we work with our own staff — not rotating — trained and presented in uniform and badge.',
@@ -203,7 +220,7 @@
       'nos.team.p': 'They hire us for the work and stay for the detail. Get to know us: we’re real people working, not stock photos.',
 
       /* Contact / form */
-      'cont.title': 'Request a quote',
+      'h1.contacto': 'Get your Miami cleaning quote',
       'cont.lead': 'We reply the same day. If you’d rather talk, call us or message us on WhatsApp at (786) 817-8904.',
       'cont.phone': 'Phone / WhatsApp',
       'form.name': 'Name', 'form.phone': 'Phone', 'form.service': 'Service',
@@ -295,12 +312,60 @@
     document.querySelectorAll('[data-kinetic]').forEach(function (el) { kinObs.observe(el); });
   }
 
-  /* ---------------- Videos: forzar mute + autoplay ---------------- */
-  function initVideos() {
-    document.querySelectorAll('video').forEach(function (v) {
+  /* ---------------- Videos: solo cargar y reproducir al entrar en pantalla ---------------- */
+  function initLazyVideos() {
+    var videos = document.querySelectorAll('video[data-src]');
+    if (!videos.length) return;
+
+    function loadAndPlay(v) {
+      if (v.dataset.loaded) return;
+      v.dataset.loaded = '1';
+      v.src = v.dataset.src;
       v.muted = true; v.defaultMuted = true; v.setAttribute('muted', '');
+      v.load();
       var p = v.play();
       if (p && p.catch) p.catch(function () {});
+    }
+
+    if (!('IntersectionObserver' in window)) {
+      videos.forEach(loadAndPlay);
+      return;
+    }
+
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var v = entry.target;
+        if (entry.isIntersecting) {
+          loadAndPlay(v);
+          if (v.dataset.loaded) v.play && v.play().catch(function () {});
+        } else if (v.dataset.loaded) {
+          v.pause();
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '200px 0px' });
+
+    videos.forEach(function (v) { obs.observe(v); });
+  }
+
+  /* ---------------- Google Analytics 4: eventos ---------------- */
+  function gaEvent(name, params) {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', name, params || {});
+    }
+  }
+
+  function initGaClickTracking() {
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a') : null;
+      if (!a) return;
+      var href = a.getAttribute('href') || '';
+      if (href.indexOf('wa.me') !== -1) {
+        gaEvent('click_whatsapp', { link_url: href });
+      } else if (href.indexOf('tel:') === 0) {
+        gaEvent('click_tel', { link_url: href });
+      } else if (href.indexOf('mailto:') === 0) {
+        gaEvent('click_email', { link_url: href });
+      }
     });
   }
 
@@ -349,6 +414,8 @@
       ];
       if (detalle) lines.push(t('form.wa.detail') + ': ' + detalle);
 
+      gaEvent('generate_lead', { service: svcKey });
+
       var url = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(lines.join('\n'));
       window.open(url, '_blank', 'noopener');
     });
@@ -371,7 +438,8 @@
     initLangButtons();
     initMenu();
     initObservers();
-    initVideos();
+    initLazyVideos();
+    initGaClickTracking();
     initForm();
     initYear();
   }
