@@ -11,7 +11,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const SITE_URL = 'https://tek-limmultiservi.com';
-const GA_ID = 'G-XXXXXXX';
+const GA_ID = 'G-WSH2T0GTV6';
 const WA_NUMBER = '17868178904';
 const PHONE_DISPLAY = '(786) 817-8904';
 const PHONE_E164 = '+17868178904';
@@ -76,7 +76,7 @@ ${preloadHero ? '<link rel="preload" as="image" href="/assets/images/hero-bg.web
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/styles.css">
-<!-- Google Analytics 4 (reemplazar G-XXXXXXX por el ID real) -->
+<!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
