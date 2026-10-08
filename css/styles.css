@@ -133,11 +133,11 @@ ul{margin:0;padding:0;list-style:none}
 
 /* Selector de idioma */
 .lang{display:flex;align-items:center;gap:2px;padding:3px;background:rgba(255,255,255,.12);border-radius:999px}
-.lang button{
+.lang a{
   padding:5px 12px;border-radius:999px;color:rgba(255,255,255,.7);
   font:600 12px/1 var(--sans);transition:.2s;
 }
-.lang button.is-active{background:var(--amarillo);color:var(--negro)}
+.lang a.is-active{background:var(--amarillo);color:var(--negro)}
 
 /* Botón hamburguesa */
 .burger{display:none;flex-direction:column;gap:5px;padding:8px;flex:none}

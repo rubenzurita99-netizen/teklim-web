@@ -1,43 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tek-limmultiservi.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/"/>
   </url>
   <url>
     <loc>https://tek-limmultiservi.com/servicios/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/servicios/"/>
   </url>
   <url>
     <loc>https://tek-limmultiservi.com/limpieza-de-alfombras-miami/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/limpieza-de-alfombras-miami/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/carpet-cleaning-miami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/limpieza-de-alfombras-miami/"/>
   </url>
   <url>
     <loc>https://tek-limmultiservi.com/limpieza-comercial-miami/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/limpieza-comercial-miami/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/commercial-cleaning-miami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/limpieza-comercial-miami/"/>
   </url>
   <url>
     <loc>https://tek-limmultiservi.com/limpieza-residencial-miami/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/limpieza-residencial-miami/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/house-cleaning-miami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/limpieza-residencial-miami/"/>
   </url>
   <url>
     <loc>https://tek-limmultiservi.com/limpieza-industrial-miami/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/limpieza-industrial-miami/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/industrial-cleaning-miami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/limpieza-industrial-miami/"/>
   </url>
   <url>
     <loc>https://tek-limmultiservi.com/nosotros/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/nosotros/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/nosotros/"/>
   </url>
   <url>
     <loc>https://tek-limmultiservi.com/contacto/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/contacto/"/>
+  </url>
+  <url>
+    <loc>https://tek-limmultiservi.com/en/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/"/>
+  </url>
+  <url>
+    <loc>https://tek-limmultiservi.com/en/services/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/servicios/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/servicios/"/>
+  </url>
+  <url>
+    <loc>https://tek-limmultiservi.com/en/carpet-cleaning-miami/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/limpieza-de-alfombras-miami/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/carpet-cleaning-miami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/limpieza-de-alfombras-miami/"/>
+  </url>
+  <url>
+    <loc>https://tek-limmultiservi.com/en/commercial-cleaning-miami/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/limpieza-comercial-miami/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/commercial-cleaning-miami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/limpieza-comercial-miami/"/>
+  </url>
+  <url>
+    <loc>https://tek-limmultiservi.com/en/house-cleaning-miami/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/limpieza-residencial-miami/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/house-cleaning-miami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/limpieza-residencial-miami/"/>
+  </url>
+  <url>
+    <loc>https://tek-limmultiservi.com/en/industrial-cleaning-miami/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/limpieza-industrial-miami/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/industrial-cleaning-miami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/limpieza-industrial-miami/"/>
+  </url>
+  <url>
+    <loc>https://tek-limmultiservi.com/en/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/nosotros/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/nosotros/"/>
+  </url>
+  <url>
+    <loc>https://tek-limmultiservi.com/en/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tek-limmultiservi.com/contacto/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tek-limmultiservi.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tek-limmultiservi.com/contacto/"/>
   </url>
 </urlset>
